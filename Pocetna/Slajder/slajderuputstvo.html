@@ -1,0 +1,42 @@
+﻿<html>
+<head>
+ <title>Упутство | Слајдер за слике</title>
+ <meta charset="utf-8" />
+ <link href="slajderstajl.css" rel="stylesheet" />
+</head>
+<body>
+ <div id="naslov">ОСНОВНА ШКОЛА "СОЊА МАРИНКОВИЋ"</div>
+ <table>
+ <tr>
+ <td class="empty"></td>
+ <td class="linkovi"><a class="zelena" href="slajder.html">Почетна</a></td>
+ <td class="linkovi"><a class="zelena" href="slajderoautoru.html">О аутору</a></td>
+ <td class="selektovan"><a class="zuta"
+href="slajderuputstvo.html">Упутство</a></td>
+ <td class="empty"></td>
+ </tr>
+ </table>
+ <br /><br />
+ <div id="container">
+ <div id="prazan"></div>
+ <div id="pikaso"><label>Пикасо</label></div>
+ <div id ="okvir">
+ <p>
+ На страници Почетна се смењују слике једна за другом у временском
+ интервалу од 3 секунде (3000 ms). Након приказа последње слике у низу
+ приказује се поново прва слика. Испод слике која се тренутно приказује
+ дат је индикатор у виду кружића који приказује која слика у низу је
+ тренутно приказана.
+ </p>
+ <p>
+ Приликом приказа слике коришћењем CSS особине „opacity“ креиран је
+ ефекат „FadeIn“ где сликa од потупно провидне постепено (у року од 1000
+ ms) постане потпуно видљива. Такође, истовремено са сменом слика у
+ слајдеру, у диву поред слике приказују се подаци о активној слици
+ (назив, годину, кратак опис и слично).
+ </p>
+ </div>
+ </div>
+ <div id="footer">Copyright &copy Основна школа "Соња Маринковић"</div>
+</body>
+</html>

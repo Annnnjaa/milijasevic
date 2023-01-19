@@ -1,0 +1,31 @@
+﻿body {
+}
+#centar {
+ text-align:center;
+}
+#naslov {
+ font-family:Arial;
+ color:#2824be;
+ font-size:xx-large;
+ margin-top:50px;
+ margin-bottom:20px;
+ font-weight:bold;
+}
+label {
+ font-style:italic;
+ color:red;
+}
+#button {
+ padding:10px 20px;
+ border-radius:10px;
+ background-color:#2824be;
+ color:#fff;
+}
+.tekst {
+ font-style:italic;
+ padding:5px;
+ border-radius:5px;
+}
+input {
+ margin-top:40px;
+}

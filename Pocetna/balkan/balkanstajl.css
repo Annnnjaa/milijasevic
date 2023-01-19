@@ -1,0 +1,40 @@
+﻿body {
+}
+body {
+ background-image: url('mapabalkana.jpg');
+ background-repeat: no-repeat;
+ background-attachment: scroll;
+}
+#naslov {
+ font-family: Arial;
+ color: blue;
+ font-size: xx-large;
+ font-weight: bold;
+ position: fixed;
+ margin-top: 0px;
+ margin-left: 0px;
+ left: 708px;
+ top: 32px;
+}
+#nazivsrbija {
+ font-family: Arial;
+ color: red;
+ font-size: x-large;
+ font-weight: bold;
+ position: fixed;
+ margin-top: 0px;
+ margin-left: 0px;
+ left: 574px;
+ top: 224px;
+ cursor:pointer;
+}
+img{
+ width:150px;
+ height:100px;
+ position: fixed;
+ margin-top: 0px;
+ margin-left: 0px;
+ left: 564px;
+ top: 266px;
+ cursor:pointer;
+}

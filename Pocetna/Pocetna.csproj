@@ -1,0 +1,185 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{11B67A77-120C-4AF3-81FB-0C525BD66D14}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Pocetna</RootNamespace>
+    <AssemblyName>Pocetna</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="balkan\balkan.html" />
+    <Content Include="balkan\balkanjava.js" />
+    <Content Include="balkan\balkanstajl.css" />
+    <Content Include="balkan\mapabalkana.jpg" />
+    <Content Include="balkan\Srbija.jpg" />
+    <Content Include="balkan\Srbija.mp3" />
+    <Content Include="Domace\dzivotinje.html" />
+    <Content Include="Domace\dzjava.js" />
+    <Content Include="Domace\dzoautoru.html" />
+    <Content Include="Domace\dzstajl.css" />
+    <Content Include="Domace\dzstajl2.css" />
+    <Content Include="Domace\dzuputstvo.html" />
+    <Content Include="Domace\krava.html" />
+    <Content Include="Domace\krava.jpg" />
+    <Content Include="Domace\krava.mp3" />
+    <Content Include="Domace\macka.html" />
+    <Content Include="Domace\macka.jpg" />
+    <Content Include="Domace\macka.mp3" />
+    <Content Include="Domace\pace.html" />
+    <Content Include="Domace\pace.jpg" />
+    <Content Include="Domace\pace.mp3" />
+    <Content Include="Domace\pas.html" />
+    <Content Include="Domace\pas.jpg" />
+    <Content Include="Domace\pas.mp3" />
+    <Content Include="Domace\petao.mp3" />
+    <Content Include="Domace\pile.html" />
+    <Content Include="Domace\pile.jpg" />
+    <Content Include="Domace\pozadina.jpg" />
+    <Content Include="index.html" />
+    <Content Include="Kalkulator\kalkulator.html" />
+    <Content Include="Kalkulator\kalkulatorjava.js" />
+    <Content Include="Kalkulator\kalkulatorstajl.css" />
+    <Content Include="Mesi\mesi.html" />
+    <Content Include="Mesi\mesi.jpg" />
+    <Content Include="Mesi\mesijava.js" />
+    <Content Include="Mesi\mesioautoru.html" />
+    <Content Include="Mesi\mesistajl.css" />
+    <Content Include="Novak\novak.html" />
+    <Content Include="Novak\novak.jpg" />
+    <Content Include="Novak\novakjava.js" />
+    <Content Include="Novak\novakoautoru.html" />
+    <Content Include="Novak\novakstajl.css" />
+    <Content Include="Sabiranje\sabiranje.html" />
+    <Content Include="Sabiranje\sabiranjejava.js" />
+    <Content Include="Sabiranje\sabiranjestajl.css" />
+    <Content Include="sijalica\sijalica.html" />
+    <Content Include="sijalica\sijalicajava.js" />
+    <Content Include="sijalica\sijalicaoff.gif" />
+    <Content Include="sijalica\sijalicaon.gif" />
+    <Content Include="sijalica\sijalicastajl.css" />
+    <Content Include="Slajder\slajder.html" />
+    <Content Include="Slajder\slajderjava.js" />
+    <Content Include="Slajder\slajderoautoru.html" />
+    <Content Include="Slajder\slajderstajl.css" />
+    <Content Include="Slajder\slajderuputstvo.html" />
+    <Content Include="srbija\srbija.html" />
+    <Content Include="srbija\Srbija.jpg" />
+    <Content Include="srbija\Srbija.mp3" />
+    <Content Include="srbija\srbijajava.js" />
+    <Content Include="srbija\srbijaoautoru.html" />
+    <Content Include="srbija\srbijastajl.css" />
+    <Content Include="srbija\srbijauputstvo.html" />
+    <Content Include="vreme\beograd.html" />
+    <Content Include="vreme\bor.html" />
+    <Content Include="vreme\cacak.html" />
+    <Content Include="vreme\jagodina.html" />
+    <Content Include="vreme\nebo.jpg" />
+    <Content Include="vreme\nis.html" />
+    <Content Include="vreme\pancevo.html" />
+    <Content Include="vreme\ruma.html" />
+    <Content Include="vreme\subotica.html" />
+    <Content Include="vreme\valjevo.html" />
+    <Content Include="vreme\vranje.html" />
+    <Content Include="vreme\vreme.html" />
+    <Content Include="vreme\vremejava.js" />
+    <Content Include="vreme\vremeoautoru.html" />
+    <Content Include="vreme\vremestajl.css" />
+    <Content Include="vreme\vremestajl2.css" />
+    <Content Include="vreme\vremeuputstvo.html" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup />
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>0</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:2378/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,21 @@
+﻿body { background-image: url('nebo.jpg') ; background-repeat: no-repeat ; background-attachment: fixed ; background-position: center center ; font-family :Arial ; text-align :center ; } #naslov { font-size :xx-large ; color :#f16121 ; font-weight :bold ; margin-top :30px ; } table { margin-left :auto ; margin-right :auto ; margin-top :50px ; margin-bottom :50px ; height :50px ; border-collapse :collapse ; } .selektovan { width :200px ; background-color :#f16121 ; text-align :center ; } .neselektovan { width :200px ; background-color :#ffffff ; text-align :center ; }a { text-decoration :none ; } #bela { color :white ; } .plava { color :blue ; } #linija { border-left :solid 2px #f16121 ; border-right :solid 2px #f16121 ; } #container { margin-left :auto ; margin-right :auto ; width :600px ; height :850px ; background-color :white ; opacity :0.7 ; } #selekcija { padding-top: 30px ; padding-bottom: 30px ; } label { padding-right :20px ; }
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     select {
+ padding:5px;
+ background-color:#bfbdbd;
+ border-radius:7px;
+}
+iframe {
+ width:500px;
+ height:600px;
+}
+#footer {
+ padding:50px 0px;
+ color:#f16121;
+ font-size:large;
+}
+.autor {
+ padding:20px;
+}
+p{
+ padding:0px 40px;
+}

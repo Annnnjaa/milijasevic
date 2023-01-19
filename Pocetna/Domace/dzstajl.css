@@ -1,0 +1,78 @@
+﻿body {
+ background-image: url('pozadina.jpg');
+ background-repeat: no-repeat;
+ background-attachment: fixed;
+ background-position: center center;
+ font-family:Arial;
+}
+#naslov {
+ text-align:center;
+ font-size:xx-large;
+ font-weight:bold;
+ color:#e9eca2;
+ text-shadow:2px 2px #3a1524;
+ margin-top:50px;
+ margin-bottom:50px;
+}
+table {
+ margin-left:auto;
+ margin-right:auto;
+ border-collapse:collapse;
+ height:60px;
+ margin-bottom:100px;
+}
+.selektovan {
+ width:200px;
+ background-color:#3a1524;
+ text-align:center;
+}
+.neselektovan {
+ width:200px;
+ background-color:#e9eca2;
+ text-align:center;
+}
+a {
+ text-decoration:none;
+}
+.zuta {
+ color:#e9eca2;
+}
+.braon {
+ color:#3a1524;
+}
+#linija {
+ border-left:solid 2px #3a1524;
+ border-right:solid 2px #3a1524;
+}
+#centar {
+ text-align:center;
+}
+img {
+ width:200px;
+ height:200px;
+ border-radius:100px;
+ border:5px solid #e9eca2;
+ cursor:pointer;
+}
+#footer {
+ width:100%;
+ padding:20px;
+ text-align:center;
+ background-color:#3a1524;
+ color:#e9eca2;
+ position:fixed;
+ bottom:0px;
+ left:0px;
+}
+.centar {
+ display:block;
+ margin-left:auto;
+ margin-right:auto;
+ width:50%;
+ background-color:white;
+ opacity:0.6;
+ text-align:center;
+ padding:20px 20px;
+ font-size:18px;
+ font-weight:bold;
+}

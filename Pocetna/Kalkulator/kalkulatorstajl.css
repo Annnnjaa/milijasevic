@@ -1,0 +1,43 @@
+﻿#naslov {
+ font-family:Arial;
+ font-size:xx-large;
+ color:blue;
+ text-align:center;
+ margin-top:50px;
+ margin-bottom:20px;
+ font-weight:bold;
+}
+#podnaslov {
+ color:red;
+ text-align:center;
+ margin-bottom:50px;
+ font-style:italic;
+}
+table {
+ width:100%;
+}
+.levo {
+ width:50%;
+ text-align:right;
+}
+.desno{
+ width:50%;
+}
+#centar{
+ text-align :center;
+}
+tr{
+ height:40px;
+}
+label{
+ font-style:italic;
+ color:#0026ff;
+ font-size:18px;
+}
+#dugme{
+ padding:10px 20px;
+ background-color:#0026ff;
+ color:white;
+ border-radius:10px;
+ cursor:pointer;
+}

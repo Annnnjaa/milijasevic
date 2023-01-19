@@ -1,0 +1,45 @@
+﻿<html>
+<head>
+ <title>Calculator</title>
+    <link href="kalkulatorstajl.css" rel="stylesheet" />
+</head>
+<body>
+ <div id="naslov">KALKULATOR</div>
+ <div id="podnaslov">Unesite brojeve, izaberite operaciju, pritinite dugme i
+ dobicete resenje.</div>
+ <table>
+ <tr> <!-- broj 1 -->
+ <td class="levo"><label>Unesite 1. broj : </label></td>
+ <td class="desno"><input id="broj1" type="number" min="1"
+ max="100"/></td>
+ </tr>
+ <tr> <!-- broj 2 -->
+ <td class="levo"><label>Unesite 2. broj : </label></td>
+ <td><input id="broj2" type="number" min="1" max="100"/></td>
+ </tr>
+ <tr> <!-- operacija -->
+ <td class="levo"><label>Izaberite operaciju : </label></td>
+ <td>
+ <select id="operacija">
+ <option value="nista"></option>
+ <option value="+">sabiranje</option>
+ <option value="-">oduzimanje</option>
+ <option value="*">mnozenje</option>
+ <option value="/">deljenje</option>
+ </select>
+ </td>
+ </tr>
+ <tr> <!--dugme -->
+ <td colspan="2" id="centar">
+ <input id="dugme" type="button" value="Prikazi ..."
+ onclick="fun();"/>
+ </td>
+ </tr>
+ <tr> <!-- rezultat-->
+ <td class="levo"><label>Rezultat : </label></td>
+ <td><input id="rez" type="text" readonly="readonly"/></td>
+ </tr>
+ </table>
+    <script src="kalkulatorjava.js"></script>
+</body>
+</html>

@@ -1,0 +1,122 @@
+﻿body{
+ background-color:#f5e380; /*zuta pozadina*/
+ font-family:Arial;
+ color:#009933; /*tamno zelena*/
+}
+#naslov {
+ text-align:center;
+ font-size:xx-large;
+ padding:10px;
+}
+table {
+ width:100%;
+ height:50px;
+ border-collapse:collapse;
+}
+.empty {
+ width:15%;
+ background-color:#99FF99; /*svetlo zelena*/
+}
+.selektovan {
+ width:23%;
+ background-color: #009933; /*tamno zelena*/
+ text-align:center;
+}
+.linkovi {
+ width:23%;
+ background-color:#99FF99; /*svetlo zelena*/
+ text-align:center;
+}
+a {
+ text-decoration:none;
+}
+.zelena {
+ color:#009933; /*tamno zelena*/
+}
+.zuta {
+ color:#f5e380; /*zuta pozadina*/
+}
+#container {
+ width:100%;
+ height:500px;
+}
+#prazan {
+ float:left;
+ width:15%;
+ height:500px;
+ background-color:#f5e380; /*zuta pozadina*/
+}
+#pikaso {
+ text-align:center;
+ float:left;
+ width:23%;
+ height:500px;
+ background-color:#f5e380; /*zuta pozadina*/
+}
+label {
+ writing-mode: vertical-lr;
+ text-orientation: upright;
+ font-size:60px;
+}
+#okvir {
+ float:left;
+ width:46%;
+ height:500px;
+ background-color:#f5e380; /*zuta pozadina*/
+}
+img {
+ float:left;
+ width:50%;
+ height:70%;
+}
+#tekst {
+ float:left;
+ width:50%;
+ height:70%;
+ background-color:#99FF99; /*svetlo zelena*/
+ text-align:center;
+}
+#footer {
+ width:100%;
+ text-align:center;
+ color:#f5e380; /*zuta pozadina*/
+ background-color: #009933; /*tamno zelena*/
+ padding:10px;
+ position:fixed;
+ bottom:0;
+ left:0;
+}
+#indikatori {
+ float:left;
+ padding:20px 0px;
+ width: 100%;
+ text-align:center;
+}
+.indikator {
+ display:inline-block;
+ width:16px;
+ height:16px;
+ border-radius:8px;
+ background-color:black; /*softverski se menja u sivu boju*/
+}
+#tekstnaslov {
+ font-size:22px;
+ font-weight:bold;
+ padding:70px 0px 10px 0px;
+}
+#tekstgodina {
+ font-size:25px;
+ padding:10px;
+ color:#808080;
+}
+#tekstopis {
+ font-size:13px;
+ color:black;
+ padding:10px;
+}
+p {
+ padding:10px;
+ font-family:'Times New Roman';
+ font-style:italic;
+ font-size:20px;
+}

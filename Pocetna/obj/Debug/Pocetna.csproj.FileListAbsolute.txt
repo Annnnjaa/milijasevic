@@ -1,0 +1,5 @@
+C:\Users\Korisnik\Desktop\sajt\Pocetna\Pocetna\obj\Debug\Pocetna.csprojResolveAssemblyReference.cache
+C:\Users\Korisnik\Desktop\sajt\Pocetna\Pocetna\bin\Pocetna.dll
+C:\Users\Korisnik\Desktop\sajt\Pocetna\Pocetna\bin\Pocetna.pdb
+C:\Users\Korisnik\Desktop\sajt\Pocetna\Pocetna\obj\Debug\Pocetna.dll
+C:\Users\Korisnik\Desktop\sajt\Pocetna\Pocetna\obj\Debug\Pocetna.pdb

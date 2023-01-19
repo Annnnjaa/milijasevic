@@ -1,0 +1,17 @@
+﻿body {
+}
+body {
+ background-color:#f16121;
+ font-family:Arial;
+ text-align:center;
+}
+#naslov {
+ font-size:xx-large;
+ font-weight:bold;
+ margin-top:30px;
+ color:white;
+ margin-bottom:50px;
+}
+#sadrzaj {
+ padding:0px 30px;
+}

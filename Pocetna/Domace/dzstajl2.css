@@ -1,0 +1,16 @@
+﻿body {
+}
+#naziv {
+ text-align:center;
+ font-size:xx-large;
+ font-weight:bold;
+ color:#3a1524;
+ text-shadow:2px 2px #3a1524;
+ font-family:Arial;
+ margin-top:30px;
+ margin-bottom:30px;
+}
+#opis {
+ font-family:Arial;
+ padding:0px 15px;
+}

@@ -1,0 +1,40 @@
+﻿<html>
+<head>
+ <meta charset="utf-8" />
+ <title>Turistička agencija "Planinar"</title>
+ <link href="vremestajl.css" rel="stylesheet" />
+</head>
+<body>
+ <div id="naslov">Turistička agencija "Planinar"</div>
+ <table>
+ <tr>
+ <td class="selektovan"><a id="bela" href="vreme.html">Početna</a></td>
+ <td class="neselektovan" id="linija"><a class="plava" href="vremeoautoru.html">
+ O autoru</a></td>
+ <td class="neselektovan"><a class="plava" href="vremeuputstvo.html">
+ Uputstvo</a></td>
+ </tr>
+ </table>
+ <div id="container">
+ <div id="selekcija">
+ <label>Izaberite grad</label>
+ <select onchange="fun(this.value)">
+ <option value="beograd">Beograd</option>
+ <option value="nis">Niš</option>
+ <option value="valjevo">Valjevo</option>
+ <option value="bor">Bor</option>
+ <option value="pancevo">Pančevo</option>
+ <option value="subotica">Subotica</option>
+ <option value="vranje">Vranje</option>
+ <option value="ruma">Ruma</option>
+ <option value="cacak">Čačak</option>
+ <option value="jagodina">Jagodina</option>
+ </select>
+ </div>
+ <iframe src="https://naslovi.net/vremenska-prognoza/" ></iframe>
+ </div>
+ <div id="footer">&copy Turistička agencija "Planinar"</div>
+
+ <script src="vremejava.js"></script>
+</body>
+</html>
